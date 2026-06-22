@@ -1,0 +1,5 @@
+../Hardware/BOO.c:3:8:BOO_Init	1
+../Hardware/BOO.c:8:8:BOO_ON	1
+../Hardware/BOO.c:13:8:BOO_OFF	1
+../Hardware/BOO.c:18:8:HW_ON	1
+../Hardware/BOO.c:23:8:HW_OFF	1

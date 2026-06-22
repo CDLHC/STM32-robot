@@ -1,0 +1,6 @@
+../Core/Src/main.c:118:8:SetStandPosture	4	static
+../Core/Src/main.c:124:8:ResetAll	16	static
+../Core/Src/main.c:136:8:Huadong_Smooth	16	static
+../Core/Src/main.c:195:5:main	8	static
+../Core/Src/main.c:263:6:SystemClock_Config	72	static
+../Core/Src/main.c:306:6:Error_Handler	4	static,ignoring_inline_asm

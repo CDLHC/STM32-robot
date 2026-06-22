@@ -1,0 +1,11 @@
+../Core/Src/freertos.c:111:6:MX_FREERTOS_Init	3
+../Core/Src/freertos.c:159:6:StartDefaultTask	1
+../Core/Src/freertos.c:173:13:RunAutoDemo	9
+../Core/Src/freertos.c:253:6:StartServoTask	1
+../Core/Src/freertos.c:277:6:StartSerialTask	18
+../Core/Src/freertos.c:316:6:StartGaitTask	49
+../Core/Src/freertos.c:561:6:StartSensorTask	5
+../Core/Src/freertos.c:600:6:OledRefreshCallback	1
+../Core/Src/freertos.c:607:6:LedBlinkCallback	2
+../Core/Src/freertos.c:622:6:StartLedTask	4
+../Core/Src/freertos.c:653:6:StartNRFTask	22

@@ -1,0 +1,9 @@
+../Hardware/NRF24L01.c:10:16:SPI2_ReadWriteByte	2
+../Hardware/NRF24L01.c:19:9:NRF24L01_Write_Reg	1
+../Hardware/NRF24L01.c:30:9:NRF24L01_Read_Reg	1
+../Hardware/NRF24L01.c:41:9:NRF24L01_Read_Buf	2
+../Hardware/NRF24L01.c:53:9:NRF24L01_Write_Buf	2
+../Hardware/NRF24L01.c:65:6:NRF24L01_Init	1
+../Hardware/NRF24L01.c:72:9:NRF24L01_Check	3
+../Hardware/NRF24L01.c:84:6:NRF24L01_RX_Mode	1
+../Hardware/NRF24L01.c:103:9:NRF24L01_RxPacket	2

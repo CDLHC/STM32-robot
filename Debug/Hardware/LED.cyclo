@@ -1,0 +1,7 @@
+../Hardware/LED.c:4:6:LED_Init	1
+../Hardware/LED.c:9:6:LED1_ON	1
+../Hardware/LED.c:14:6:LED1_OFF	1
+../Hardware/LED.c:21:6:LED2_ON	1
+../Hardware/LED.c:26:6:LED2_OFF	1
+../Hardware/LED.c:32:6:LED_StartBlink	1
+../Hardware/LED.c:39:6:LED_StopBlink	1

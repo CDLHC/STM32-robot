@@ -1,0 +1,9 @@
+../Hardware/Servo.c:5:6:Servo_Init	8	static
+../Hardware/Servo.c:13:6:Servo_SetAngle1	16	static
+../Hardware/Servo.c:19:6:Servo_SetAngle2	16	static
+../Hardware/Servo.c:25:6:Servo_SetAngle3	16	static
+../Hardware/Servo.c:30:6:Servo_SetAngle4	16	static
+../Hardware/Servo.c:35:6:Servo_SetAngle5	16	static
+../Hardware/Servo.c:39:6:Servo_SetAngle6	16	static
+../Hardware/Servo.c:43:6:Servo_SetAngle7	16	static
+../Hardware/Servo.c:47:6:Servo_SetAngle8	16	static

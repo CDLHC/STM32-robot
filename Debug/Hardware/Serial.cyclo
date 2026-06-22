@@ -1,0 +1,5 @@
+../Hardware/Serial.c:17:6:Serial_Init	1
+../Hardware/Serial.c:22:6:Voice_Init	1
+../Hardware/Serial.c:28:6:Serial_SendByte	1
+../Hardware/Serial.c:33:5:__io_putchar	1
+../Hardware/Serial.c:40:6:HAL_UART_RxCpltCallback	4
