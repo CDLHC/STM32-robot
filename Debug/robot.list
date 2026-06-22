@@ -4438,7 +4438,6 @@ int main(void)
  8002304:	f000 fda8 	bl	8002e58 <MX_USART3_UART_Init>
   MX_SPI2_Init();
  8002308:	f000 f860 	bl	80023cc <MX_SPI2_Init>
-  /* MX_SPI2_Init(); 已移到 NRF24L01_Init 中，避免启动时卡死 */
   /* USER CODE BEGIN 2 */
     Servo_Init();
  800230c:	f004 fcee 	bl	8006cec <Servo_Init>
@@ -6449,9 +6448,9 @@ void MX_USART1_UART_Init(void)
  8002e08:	4b11      	ldr	r3, [pc, #68]	@ (8002e50 <MX_USART1_UART_Init+0x4c>)
  8002e0a:	4a12      	ldr	r2, [pc, #72]	@ (8002e54 <MX_USART1_UART_Init+0x50>)
  8002e0c:	601a      	str	r2, [r3, #0]
-  huart1.Init.BaudRate = 115200;
+  huart1.Init.BaudRate = 9600;
  8002e0e:	4b10      	ldr	r3, [pc, #64]	@ (8002e50 <MX_USART1_UART_Init+0x4c>)
- 8002e10:	f44f 32e1 	mov.w	r2, #115200	@ 0x1c200
+ 8002e10:	f44f 5216 	mov.w	r2, #9600	@ 0x2580
  8002e14:	605a      	str	r2, [r3, #4]
   huart1.Init.WordLength = UART_WORDLENGTH_8B;
  8002e16:	4b0e      	ldr	r3, [pc, #56]	@ (8002e50 <MX_USART1_UART_Init+0x4c>)
