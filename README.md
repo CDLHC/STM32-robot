@@ -18,7 +18,7 @@
 
 | 离线语音模块 | ASRPRO | USART3 |
 
-| RGB灯带 | WS2812B ×16 | TIM4\_CH2 + DMA |
+| RGB灯带 | WS2812B ×8 | TIM4\_CH2 + DMA |
 
 | 显示屏 | 0.96" OLED 128×64 | I2C |
 
@@ -162,7 +162,7 @@
 
 \- 编译IDE：Keil MDK-ARM / STM32CubeIDE
 
-\- 主控MCU：STM32F103C8Tx
+\- 主控MCU：STM32F103C8T6
 
 \- 底层驱动库：STM32Cube HAL FW\_F1
 
@@ -211,6 +211,4 @@ NRF24L01发送端遥控手柄完整工程：\[机器人遥控器](./遥控器代
 实物展示：
 
 \[四足机器人和简易遥控器实物图](./原理图和实物照片/四足机器人和简易遥控器实物图.jpg)
-
-
 
